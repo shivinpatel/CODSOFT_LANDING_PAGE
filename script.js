@@ -11,9 +11,6 @@ document.querySelectorAll("nav a").forEach(link => {
     });
 });
 
-
-// Contact Form
-
 const form=document.querySelector("form");
 
 form.addEventListener("submit",function(e){
@@ -25,9 +22,6 @@ alert("✅ Thank You! We will contact you soon.");
 form.reset();
 
 });
-
-
-// Sticky Navbar Shadow
 
 window.addEventListener("scroll",()=>{
 
@@ -44,9 +38,6 @@ header.style.boxShadow="none";
 }
 
 });
-
-
-// Reveal Animation
 
 const cards=document.querySelectorAll(".card");
 
@@ -110,9 +101,6 @@ counter.innerText=target+"+";
 update();
 
 });
-
-
-// Scroll Top
 
 const topBtn=document.getElementById("topBtn");
 
